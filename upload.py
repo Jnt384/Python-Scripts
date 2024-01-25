@@ -24,7 +24,7 @@ def add_screenshot_to_ppt(presentation, screenshot_path):
     except Exception as e:
         print(f"An error occurred while adding screenshot: {e}")
 
-def main():
+def main():   
     try:
         ppt_folder_path = r'C:\Users\jt84h\OneDrive\Documents\reactjs\Python\screenshots\Screenshot_to_PPT'
         ppt_file_name = "CEH.pptx"
